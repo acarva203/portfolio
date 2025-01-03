@@ -10,7 +10,7 @@
     font-family: "Sour Gummy", serif;
 }
 header{
-  position: fixed;
+    position: sticky;
     top: 0;
     min-height: 75px;
     padding: 0px 30px;
@@ -24,4 +24,8 @@ nav ul{
   display: flex;
   flex-direction: row;
     justify-content: space-around;
+}
+
+.descript{
+    display: grid;
 }

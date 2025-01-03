@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-a{
+.nav-link{
     text-decoration: none;
 }
 .home{
@@ -23,5 +23,5 @@ nav ul{
   list-style-type: none;
   display: flex;
   flex-direction: row;
-      justify-content: space-around;}
-      
+    justify-content: space-around;
+}

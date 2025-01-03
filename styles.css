@@ -8,11 +8,12 @@
 }
 .home{
     font-family: "Sour Gummy", serif;
+    text-decoration: none;
 }
 header{
-    position: sticky;
+    position: fixed;
     top: 0;
-    min-height: 75px;
+    width: 100%;
     padding: 0px 30px;
     display: flex;
     justify-content: space-around;

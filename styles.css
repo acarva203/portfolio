@@ -19,3 +19,9 @@ header{
     align-items: center;
     background-color: #eee;
 }
+nav ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+      justify-content: space-around;}
+      

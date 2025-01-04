@@ -6,9 +6,12 @@
 .nav-link{
     text-decoration: none;
 }
+.left{
+    text-decoration: none;
+}
 .home{
     font-family: "Sour Gummy", serif;
-    text-decoration: none;
+    float: left;
 }
 header{
     position: fixed;
@@ -29,4 +32,8 @@ nav ul{
 
 .descript{
     display: grid;
+}
+
+main{
+    padding: 20px 0;
 }

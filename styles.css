@@ -5,14 +5,13 @@
 
 .nav-link{
     text-decoration: none;
+    color: black;
 }
 .left{
     text-decoration: none;
+    color: black;
 }
-.home{
-    font-family: "Sour Gummy", serif;
-    float: left;
-}
+
 header{
     position: fixed;
     top: 0;

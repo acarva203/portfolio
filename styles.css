@@ -11,6 +11,7 @@
 .left{
     text-decoration: none;
     color: black;
+    position: fixed;
 }
 
 header{
@@ -36,6 +37,7 @@ nav ul{
 
 main{
     padding: 200px 0;
+    width: 100%
 }
 
 section div{

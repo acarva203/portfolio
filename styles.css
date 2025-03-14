@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 .nav-link{
@@ -13,9 +14,16 @@
     color: black;
 
 }
+section .intro{
+    display: block;
+}
+
+.intro-text{
+    width: 40%;
+}
 
 header{
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
     padding: 20px 30px;
@@ -36,7 +44,6 @@ nav ul{
 }
 
 main{
-    padding: 200px 0;
     width: 100%
 }
 
@@ -47,4 +54,22 @@ section div{
 
 nav#nav-bar{
     display: flex;
+}
+
+h2.title{
+    padding: 1.0rem 2.5rem;
+    font-size: xx-large;
+}
+h3.title{
+    padding: 1.0rem 2.5rem;
+}
+
+.inv{
+    font-size: larger;
+}
+h1{
+    font-size: 1.5em;
+}
+ul{
+    padding-left: 20px;
 }
